@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      hpl23
+HostName                       en-ec-ecelinux-18.coecis.cornell.edu
+ProcessIdentifier              18418
+ProcessCreationTime_UTC        1604786989
+ProcessCreationTime_Readable   Sat Nov  7 17:09:49 2020 EST
+AppIdentifier                  /opt/cadence/ic/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /home/hpl23/finalProject/libManager.log.1
+TimeEditLocked                 Sat Nov  7 17:10:09 2020 EST

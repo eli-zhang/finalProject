@@ -20,3 +20,7 @@
 \a cdsLibManager->viewLineEdit->value = "phaseShifter"
 \a cdsLibManager->libLineEdit->value = "finalProject"
 \a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a exit(0)

@@ -1,4 +1,4 @@
 INCLUDE /opt/cadence-designkits/gpdk045/cds.lib
 
 DEFINE avTech /opt/cadence/assura/tools.lnx86/assura/etc/avtech/avTech
-DEFINE finalProject /home/hpl23/finalProject/finalProject
+DEFINE finalProject /home/dts86/ece4530/finalProject

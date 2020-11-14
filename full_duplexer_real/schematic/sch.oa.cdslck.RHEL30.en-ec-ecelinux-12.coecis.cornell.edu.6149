@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Sat Nov 14 14:29:39 2020 EST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/dts86/ece4530/finalProject/full_duplexer_testbench/schematic/sch.oa.cdslck.dirlck
-TimeEditLocked                 Sat Nov 14 14:32:46 2020 EST
+FilePathUsedToEditLock         /home/dts86/ece4530/finalProject/full_duplexer_real/schematic/sch.oa.cdslck
+TimeEditLocked                 Sat Nov 14 14:31:15 2020 EST

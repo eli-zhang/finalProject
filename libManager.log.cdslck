@@ -4,13 +4,13 @@
 # Information about current Edit Lock Owner.
 #
 LockStakeVersion               1.1
-LoginName                      ekz5
-HostName                       en-ec-ecelinux-04.coecis.cornell.edu
-ProcessIdentifier              50708
-ProcessCreationTime_UTC        1604518368
-ProcessCreationTime_Readable   Wed Nov  4 14:32:48 2020 EST
+LoginName                      hpl23
+HostName                       en-ec-ecelinux-13.coecis.cornell.edu
+ProcessIdentifier              62280
+ProcessCreationTime_UTC        1607469125
+ProcessCreationTime_Readable   Tue Dec  8 18:12:05 2020 EST
 AppIdentifier                  /opt/cadence/ic/tools/dfII/bin/64bit/libManager
 OSType                         lnx86
 ReasonForPlacingEditLock       log file
-FilePathUsedToEditLock         /home/ekz5/finalProject/libManager.log
-TimeEditLocked                 Wed Nov  4 14:33:04 2020 EST
+FilePathUsedToEditLock         /home/hpl23/finalProject/libManager.log
+TimeEditLocked                 Tue Dec  8 18:12:10 2020 EST

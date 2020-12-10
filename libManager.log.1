@@ -1,7 +1,7 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 03/11/2016 01:09 (sjfnl137) $
 \o Sub version:		sub-version  IC6.1.7 - CAT35.15s009 
-\o Arguments:		-unmapped -mpssession virtuoso29505 -mpshost en-ec-ecelinux-14.coecis.cornell.edu 
-\o Working Directory:	en-ec-ecelinux-14.coecis.cornell.edu:/home/hpl23/finalProject
+\o Arguments:		-unmapped -mpssession virtuoso57255 -mpshost en-ec-ecelinux-01.coecis.cornell.edu 
+\o Working Directory:	en-ec-ecelinux-01.coecis.cornell.edu:/home/hpl23/finalProject
 \o 64-bit offsets
 \o Qt version: 		4.8.5
 \o changeWorkingDir("/home/hpl23/finalProject") unnecessary.
@@ -11,20 +11,33 @@
 \a nrSetWindowVisibility(cdsLibManager "show")
 \o MPS service: map window
 \o Library Manager customization server connected.
-\a nrResizeWindow(cdsLibManager list(61 49 1280 657))
+\a nrResizeWindow(cdsLibManager list(8 31 1280 657))
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "finalProject"
-\a cdsLibManager->cellListBox->value = "phaseShifter"
-\a cdsLibManager->cellLineEdit->value = "phaseShifter"
+\a cdsLibManager->libLineEdit->value = "finalProject"
+\a cdsLibManager->cellListBox->value = "Testing"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrResizeWindow(cdsLibManager list(0 23 1280 657))
-\a cdsLibManager->libLineEdit->value = "finalProject"
+\a cdsLibManager->cellListBox->value = "phaseShifter"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "QH_2.4G"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Mixer_Phase_Shifter"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a nrListItemAction(cdsLibManager->cellListBox 0 0)
-\a cdsLibManager->cellListBox->value = "phaseShifter"
+\a cdsLibManager->cellListBox->value = "Mixer_Phase_Shifter"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -35,13 +48,49 @@
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "finalProject"
 \a cdsLibManager->libLineEdit->value = "finalProject"
-\a cdsLibManager->cellListBox->value = "phaseShifter"
+\a cdsLibManager->cellListBox->value = "Mixer_Phase_Shifter"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "Mixer_Phase_Shifter"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a lmgrLogShowPopup("mainListPopup2" 52 31 2 "symbol")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteBothRadioButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(325 107 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(461 165 334 260))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting view "symbol" from cell "Mixer_Phase_Shifter" in library "finalProject".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\o Deleted cellview 'finalProject/Mixer_Phase_Shifter/symbol'.
+\o Deletion of 1 view done.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(504 253 268 133))
+\a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "phaseShifter"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "finalProject"
+\a cdsLibManager->libLineEdit->value = "finalProject"
+\a cdsLibManager->cellListBox->value = "Mixer_Phase_Shifter"
+\a cdsLibManager->cellLineEdit->value = "Mixer_Phase_Shifter"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
@@ -50,12 +99,5 @@
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = "phaseShifter"
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\o MPS service: shutdown
-\o libManager is exiting.
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a exit(0)
+\a cdsLibManager->viewLineEdit->value = ""

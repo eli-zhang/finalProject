@@ -8,8 +8,8 @@
 (turboOpts digitalspeed) "2"
 (turboOpts envSwitch) nil
 (turboOpts errorLevel) "Do not override"
-(turboOpts mtOption) "Auto"
-(turboOpts numThreads) ""
+(turboOpts mtOption) "Manual"
+(turboOpts numThreads) "10"
 (turboOpts optvdd) 3.3
 (turboOpts preserveInst) nil
 (turboOpts preserveOption) "None"
@@ -19,7 +19,7 @@
 (turboOpts psrOption) "Default"
 (turboOpts psrSwitch) nil
 (turboOpts rcrNetFmax) nil
-(turboOpts uniMode) "Spectre"
+(turboOpts uniMode) "APS"
 (turboOpts virtualGroundNodes) nil
 (turboOpts virtualPowerNodeListBox) (nil choices nil value nil)
 (turboOpts virtualPowerNodeValue) nil

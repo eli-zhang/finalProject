@@ -1,4 +1,7 @@
+# File Created by Darren T. Schachter at Thu Dec 10 14:35:29 2020
+# assisted by CdsLibEditor
 INCLUDE /opt/cadence-designkits/gpdk045/cds.lib
 
 DEFINE avTech /opt/cadence/assura/tools.lnx86/assura/etc/avtech/avTech
 DEFINE finalProject /home/dts86/ece4530/finalProject
+DEFINE functional $(compute:THIS_TOOL_INST_ROOT)/tools/dfII//etc/cdslib/artist/functional

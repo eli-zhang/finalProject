@@ -1,0 +1,25 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.7 - CAT35 03/11/2016 01:11 (sjfnl137) $
+\o Sub version:		sub-version  IC6.1.7 - CAT35.15s009 
+\o Arguments:		-display :51.0 -mpssession virtuoso17085 -mpshost en-ec-ecelinux-17.coecis.cornell.edu -namespace CDBA -cdslib /home/dts86/ece4530/finalProject/cds.lib 
+\o Working Directory:	en-ec-ecelinux-17.coecis.cornell.edu:/home/dts86/ece4530/finalProject
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.8.5
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a nrResizeWindow(cdsLibEditor list(612 301 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 0 1)
+\o Active cell: 0 1 "$(compute:THIS_TOOL_INST_ROOT)/tools/dfII//etc/cdslib/artist/analogLib"
+\a nrListItemAction(cdsLibEditor->mainTable 6 1)
+\o Active cell: 6 1 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 6 1 "$(compute:THIS_TOOL_INST_ROOT)/tools/dfII//etc/cdslib/artist/functional")
+\a nrListItemAction(cdsLibEditor->mainTable 6 0)
+\o Active cell: 6 0 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 6 0 "functional")
+\a nrListItemAction(cdsLibEditor->mainTable 6 1)
+\o Active cell: 6 1 "$(compute:THIS_TOOL_INST_ROOT)/tools/dfII//etc/cdslib/artist/functional"
+\a cdsLibEditor->fileSaveButton->value = t
+\a cdsLibEditor->fileExitButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)

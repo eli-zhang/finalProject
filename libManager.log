@@ -1,7 +1,7 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 03/11/2016 01:09 (sjfnl137) $
 \o Sub version:		sub-version  IC6.1.7 - CAT35.15s009 
-\o Arguments:		-unmapped -mpssession virtuoso10298 -mpshost en-ec-ecelinux-12.coecis.cornell.edu 
-\o Working Directory:	en-ec-ecelinux-12.coecis.cornell.edu:/home/dts86/ece4530/finalProject
+\o Arguments:		-unmapped -mpssession virtuoso47184 -mpshost en-ec-ecelinux-17.coecis.cornell.edu 
+\o Working Directory:	en-ec-ecelinux-17.coecis.cornell.edu:/home/dts86/ece4530/finalProject
 \o 64-bit offsets
 \o Qt version: 		4.8.5
 \o changeWorkingDir("/home/dts86/ece4530/finalProject") unnecessary.
